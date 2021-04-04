@@ -1,0 +1,113 @@
+body{
+    background-color: #211717;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+.modal-header{
+	background-color: #a34a28;
+	font-family: 'Faster One', cursive;
+	color:white;
+}
+.modal-title{
+	font-size: 2rem;
+	text-align: center;
+	margin: auto;
+	font-family: 'Dela Gothic One', cursive;
+}
+.modal-body, .modal-footer{
+	background-color: #dfddc7;
+}
+.btn-group{
+	text-align: center;
+}
+.time-set-btn{
+	padding: 10px 30px;
+	margin: 0px 10px;
+	color: #b3b3b3;
+	background-color: #d9d9d9;
+	border: 2px solid #dfddc7;
+}
+.activate-time-set-btn{
+	background-color: #a34a28;
+	color: #fff;
+}
+.start-btn, .restart-btn{
+	background-color: #a34a28;
+	color: white;
+}
+.header{
+	text-align: center;
+	margin: auto;
+}
+.title{
+	font-family: 'Faster One', cursive;
+	font-size: 6rem;
+	color : #a34a28;
+	text-shadow: #1b2021;
+}
+.title-desc{
+	color : #f9d276;
+	font-family: 'Roboto', sans-serif;
+}
+#type-in {
+	text-align: center	;
+	font-family: 'Mukta', sans-serif;
+	/* top: 30px; */
+	margin:auto;
+	width: 60%;
+	background-color: #dfddc7;
+	border: 20px solid #f58b54;
+}
+.player{
+	color: #eae7af;
+	font-family: 'Orbitron', sans-serif;
+	font-size:2rem;
+	width: 60%;
+	text-align: center;
+	margin: auto;
+}
+.player-name{
+	display: inline-block;
+	text-align: left;
+}
+.timer{
+	display: inline-block;
+	text-align: right;
+    /* margin: auto; */
+    
+}
+.minute, .second{
+	display: inline-block;
+}
+
+.content{
+	padding: 30px;
+	text-align: center;
+	margin: auto;
+	font-size: 1.5rem;
+	color: #888888;
+	
+}
+errorKey{
+	background-color: red;
+	color: white;
+}
+ExpectedKey{
+	color: #959595;
+}
+typedContent{
+	color: #000;
+}
+
+
+.wpm, .accuracy, .corrate{
+	font-size: 5rem;
+	font-weight: bold;
+}
+
+
+
+.outer-btn{
+	margin: 20px 0px;
+}

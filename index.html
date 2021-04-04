@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <!-- Googel fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Faster+One&family=Mukta:wght@200&family=Orbitron:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>SpeedyGO</title>
+
+</head>
+<body>
+      
+    <div class="header">
+        <h1 class="title"> God Speed </h1>
+        <p class="title-desc">Be a real Programmer</p>
+    </div>
+    <br>
+    <div class="player row">
+      <div class="col-6 player-name">
+        <p>roo</p>
+      </div>
+      <div class="timer col-6">
+        <p class="minute">00:</p>
+        <p class="second">00</p>
+      </div>
+    </div>
+    <br><br>
+
+    <div id="type-in" tabindex="0">
+        
+        <p class="content"> </p>
+        <button type="button" class="btn restart-btn outer-btn" data-dismiss="modal">Start Over</button>
+
+    </div>
+
+    <br>
+
+
+<div class="modal fade" id="Starter" tabindex="-1" role="dialog" aria-labelledby="StarterLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+          <h5 class="modal-title" id="StarterLabel">God_Speed</h5>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+          <label>Your Good Name </label>
+          <input type="text" id="player-name" class="form-control" placeholder="Your Name">
+        </div>
+        <br><br>
+        <div class="btn-group">
+            <button class="time-set-btn activate-time-set-btn" value="0">1 minute</button>
+            <button class="time-set-btn " value="1">2 minute</button>
+            <button class="time-set-btn " value="2">5 minute</button>
+        </div>
+      </div>
+      <div class="modal-footer">
+          <button type="button" class="btn start-btn" data-dismiss="modal">Start</button>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+<div class="modal fade" id="Result" tabindex="-1" role="dialog" aria-labelledby="ResultLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="ResultLabel">Result</h5>
+
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label class="wpm">0</label>
+            <label>Words Per Minute (WPM)</label>
+
+          </div>
+          <div class="form-group">
+            <label class="accuracy">0</label>
+            <label>of Accuracy</label>
+
+          </div>
+          <div class="form-group">
+            <label class="corrate">0</label>
+            <label> of Correction Rate</label>
+
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn restart-btn" data-dismiss="modal">Start Over</button>
+    </div>
+    </div>
+  </div>
+</div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="index.js" charset="utf-8"></script>
+</body>
+</html>
