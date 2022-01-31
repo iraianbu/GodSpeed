@@ -1,2 +1,2 @@
 # GodSpeed
-[check this out!](https://iraianbu.github.io/GodSpeed/)
+[link](https://iraianbu.github.io/GodSpeed/)
